@@ -1,0 +1,97 @@
+﻿<!doctype html>
+<html>
+	<head>
+	    <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	    <title>三国群英连连看</title>
+		<link rel="stylesheet" href="../../css/core/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/llk.css" />
+	</head>
+	<body>
+		<header id="header">
+			<nav class="navbar navbar-inverse" role="navigation">
+				<div class="container-fluid">
+			    	<div class="navbar-header">
+						<!--<a class="navbar-brand" href="../../../JimWeb1.0/index.html" target="_blank" title="Jim个人网站">主站</a>-->
+			    	    <a class="navbar-brand" href="../../index.html" title="网页游戏区">网页游戏区</a>
+			    	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#the-navbar-collapse">
+			            <span class="sr-only">切换导航</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			        </button>
+			    	</div>
+			    	<div>
+						<ul class="nav navbar-nav collapse navbar-collapse" id="the-navbar-collapse">
+							<li id="pc"><a href="javascript:void();" title="适用PC端游戏">PC端</a></li>
+							<li id="phone"><a href="javascript:void();" title="适用手机端游戏">手机端</a></li>
+						</ul>
+						<div class="hidden-xs">
+							<div class="unLogin">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="../../html/index/login.html" title="登录"><span class="glyphicon glyphicon-log-in"></span>登录</a></li>
+									<li><a href="../../html/index/register.html" title="注册"><span class="glyphicon glyphicon-registration-mark"></span>注册</a></li>
+								</ul>
+							</div>
+							<div class="didLogin">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="javascript:void();" title="个人中心"><span class="glyphicon glyphicon-user"></span>个人中心</a></li>
+									<li><a href="javascript:void();">退出</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="headPic"></div>
+		</header>
+		<div id="mainContent" class="mainContent">
+			<div class="gameHeader modal-header clearfix">
+				<h1 class="center-block">三国群英连连看</h1>
+		        <div class="gameStart">
+		            <label for="boardsize">游戏难度</label>
+		            <select id="boardsize" class="form-control-static">
+		                <option value="1">简单</option>
+		                <option value="2" selected="selected">一般</option>
+		                <option value="3">较难</option>
+		                <option value="4">困难</option>
+		                <option value="5">极难</option>
+		                <option value="6">变态</option>
+		            </select>
+		    		<a id='btnNewGame' class="btn btn-lg btn-success" href="javascript:void();" title="游戏开始">开始游戏</a>
+		        </div>
+		        <div class="gameAbout btn btn-group pull-right">
+			        <a id='btnHint' class="btn btn-primary">提示</a>
+			        <a id='btnOrder' class="btn btn-primary">暂停查看排名</a>
+			        <a id='btnRemoveOrder' class="btn btn-primary">清除排名</a>
+		        </div>
+		    </div>
+		    <div class="gameContent modal-content">
+		        <div colspan="2">
+		            <canvas id="canvas">您的浏览器不支持Html5，请用Chrome、Opera、Firefox、Safari或IE9</canvas>
+		        </div>
+		    </div>
+		</div>
+		<div class="userArea visible-xs clearfix">
+			<div class="toTop"><a href="javascript:void();" title="回到顶部">Top</a></div>
+			<div class="unLogin pull-right">
+				<ul>
+					<li><a href="../../html/index/login.html" title="登录">登录</a></li>
+					<li><a href="../../html/index/register.html" title="注册">注册</a></li>
+				</ul>
+			</div>
+			<div class="didLogin pull-right">
+				<ul>
+					<li><a href="javascript:void();" title="个人中心"><span class="glyphicon glyphicon-user"></span>Me</a></li>
+					<li><a href="javascript:void();">退出</a></li>
+				</ul>
+			</div>
+		</div>
+		<footer>Copyright &copy; 2016 <a href="AboutJim.html" title="关于Jim">Jim·梦心</a></footer>
+		<script type="text/javascript" src="../../js/core/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="../../js/core/bootstrap.min.js" ></script>
+	    <script type="text/javascript" src="../../js/index.js"></script>
+	    <script type="text/javascript" src="js/llk.js" ></script>
+	    <script type="text/javascript" src="js/board.js"></script>
+	</body>
+</html>

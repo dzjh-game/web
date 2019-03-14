@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	    <title>黑白棋【开发中】</title>
+		<link rel="stylesheet" href="../../css/core/bootstrap.min.css" />
+		<link rel="stylesheet" href="../../css/index.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header id="header">
+			<nav class="navbar navbar-inverse" role="navigation">
+				<div class="container-fluid">
+			    	<div class="navbar-header">
+						<!--<a class="navbar-brand" href="../../../JimWeb1.0/index.html" target="_blank" title="Jim个人网站">主站</a>-->
+			    	    <a class="navbar-brand" href="../../index.html" title="网页游戏区">网页游戏区</a>
+			    	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#the-navbar-collapse">
+			            <span class="sr-only">切换导航</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			        </button>
+			    	</div>
+			    	<div>
+						<ul class="nav navbar-nav collapse navbar-collapse" id="the-navbar-collapse">
+							<li id="pc"><a href="javascript:void();" title="适用PC端游戏">PC端</a></li>
+							<li id="phone"><a href="javascript:void();" title="适用手机端游戏">手机端</a></li>
+						</ul>
+						<div class="hidden-xs">
+							<div class="unLogin">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="../../html/index/login.html" title="登录"><span class="glyphicon glyphicon-log-in"></span>登录</a></li>
+									<li><a href="../../html/index/register.html" title="注册"><span class="glyphicon glyphicon-registration-mark"></span>注册</a></li>
+								</ul>
+							</div>
+							<div class="didLogin">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="javascript:void();" title="个人中心"><span class="glyphicon glyphicon-user"></span>个人中心</a></li>
+									<li><a href="javascript:void();">退出</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div id="mainContent" class="mainContent">
+			<div id="gameHeader" class="modal-header clearfix">
+				<h1 class="center-block">游戏标题</h1>
+		    </div>
+		    <div id="gameContent" class="modal-content" width="100%">
+		        <!--<div id="gameRoot" colspan="2">
+		            <canvas id="canvas">您的浏览器不支持Html5，请用Chrome、Opera、Firefox、Safari或IE9</canvas>
+		        </div>-->
+		    </div>
+		</div>
+		<div class="toTop hidden-xs"><a href="javascript:void();" title="回到顶部">╱╲</a></div>
+		<footer>Copyright &copy; 2018 <a href="AboutJim.html" title="关于Jim">Jim·梦心</a></footer>
+		<script type="text/javascript" src="../../js/core/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="../../js/core/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="../../js/core/pixi.min.js" ></script>
+	    <script type="text/javascript" data-main="js/main" src="../../js/core/require.js"></script>
+	</body>
+</html>

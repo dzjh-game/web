@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<title>Jim网页游戏</title>
+		<link rel="stylesheet" href="css/core/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<header id="header">
+			<nav class="navbar navbar-inverse" role="navigation">
+				<div class="container-fluid">
+			    	<div class="navbar-header">
+						<a class="navbar-brand" href="../JimWeb1.0/index.html" target="_blank" title="Jim个人网站">主站</a>
+			    	    <a class="navbar-brand" href="index.html" title="网页游戏区">网页游戏区</a>
+			    	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#the-navbar-collapse">
+			            <span class="sr-only">切换导航</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			        </button>
+			    	</div>
+			    	<div>
+						<ul class="nav navbar-nav collapse navbar-collapse" id="the-navbar-collapse">
+							<li id="pc"><a href="javascript:void();" title="适用PC端游戏">PC端</a></li>
+							<li id="phone"><a href="javascript:void();" title="适用手机端游戏">手机端</a></li>
+						</ul>
+						<div class="hidden-xs">
+							<div class="unLogin">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="html/index/login.html" title="登录"><span class="glyphicon glyphicon-log-in"></span>登录</a></li>
+									<li><a href="html/index/register.html" title="注册"><span class="glyphicon glyphicon-registration-mark"></span>注册</a></li>
+								</ul>
+							</div>
+							<div class="didLogin">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="javascript:void();" title="个人中心"><span class="glyphicon glyphicon-user"></span>个人中心</a></li>
+									<li><a href="javascript:void();">退出</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div id="myCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+		        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		        <li data-target="#myCarousel" data-slide-to="1"></li>
+		    </ol>
+		    <!-- 轮播（Carousel）项目 -->
+		    <div class="carousel-inner">
+		        <div class="item active">
+		            <a href="games/llk/lianliankan.html" target="_blank" title="三国群英连连看"><img src="img/lianliankan.png" alt="三国群英连连看" width="100%"></a>
+		        </div>
+		        <div class="item">
+		            <a href="#" title="是男人就下一百层"><img src="img/manDown100.png" alt="是男人就下100层" width="100%"></a>
+		        </div>
+		    </div>
+		    <!-- 轮播（Carousel）导航 -->
+		    <a class="carousel-control left" href="#myCarousel" data-slide="prev" title="上一页">
+		    	<font size="10">&lsaquo;</font>
+		    </a>
+		    <a class="carousel-control right" href="#myCarousel" data-slide="next" title="下一页">
+		    	<font size="10">&rsaquo;</font>
+		    </a>
+		</div>
+		<div id="mainContent">
+			<div class="container">
+				<div class="modal-content"><h1>游戏列表</h1>
+					<div class="row">
+						<div class="col-md-4">
+							<a class="thumbnail" href="games/llk/lianliankan.html" target="_blank" title="三国群英连连看">
+								<img src="img/lianliankan.png" />
+								<div class="caption">
+					                <h3>三国群英连连看</h3>
+					                <p>三国杀中的众英雄头像，能够让你感受连连看的乐趣所在。</p>
+					            </div>
+							</a>
+						</div>
+						<!--<div class="col-md-4">
+							<a class="thumbnail" href="../ManDown100/index.html" target="_blank" title="是男人就下100层">
+								<img src="img/manDown100.png" />
+								<div class="caption">
+					                <h3>是男人就下100层</h3>
+					                <p>多样障碍物，灵活的操作能够让你感受其中的刺激感。</p>
+					            </div>
+							</a>
+						</div>-->
+						<!--<div class="col-md-4">
+							<a class="thumbnail" href="games/ChineseChess/index.html" target="_blank" title="中国象棋">
+								<img src="img/test.jpg" />
+								<div class="caption">
+					                <h3>中国象棋</h3>
+					                <p>正在开发中...</p>
+					            </div>
+							</a>
+						</div>-->
+						<div class="col-md-4">
+							<a class="thumbnail" href="games/fiveInARow/index.html" target="_blank" title="五子棋">
+								<img src="img/test.jpg" />
+								<div class="caption">
+					                <h3>五子棋</h3>
+					                <p>正在开发中...</p>
+					            </div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="contentPage">
+					<ul class="pagination">
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">&raquo;</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="userArea visible-xs clearfix">
+			<div class="toTop"><a href="javascript:void();" title="回到顶部">Top</a></div>
+			<div class="unLogin pull-right">
+				<ul>
+					<li><a href="html/index/login.html" title="登录">登录</a></li>
+					<li><a href="html/index/register.html" title="注册">注册</a></li>
+				</ul>
+			</div>
+			<div class="didLogin pull-right">
+				<ul>
+					<li><a href="javascript:void();" title="个人中心"><span class="glyphicon glyphicon-user"></span>Me</a></li>
+					<li><a href="javascript:void();">退出</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="toTop hidden-xs"><a href="javascript:void();" title="回到顶部">╱╲</a></div>
+		<footer>Copyright &copy; 2016 <a href="AboutJim.html" title="关于Jim">Jim·梦心</a></footer>
+		<script type="text/javascript" src="js/core/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/core/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+	</body>
+</html>
